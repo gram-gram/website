@@ -1,18 +1,20 @@
+var webRootPath = ((new RegExp('^http(s)?\:\/\/127\.0\.0\.1(\:[0-9]{1,5})*\/docs/(?!html/).*$')).test(document.URL) ? "./html/" : "./");
+
 class Header extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
         <nav class="nav-wrapper">
             <div class="nav-content-wrapper">
                 <div class="nav-left-wrapper">
-                    <a href="/index.html" class="logo-link">gramgram²</a>
+                    <a href="${webRootPath}index.html" class="logo-link">gramgram&sup2;</a>
                 </div>
                 <div class="nav-right-wrapper">
                     <div class="nav-links-wrapper">
-                        <a href="/index.html" class="nav-link">Home</a>
-                        <a href="../html/product-design.html" class="nav-link">Product Design</a>
-                        <a href="../html/consulting.html" class="nav-link">Consulting</a>
-                        <a href="../html/social-media.html" class="nav-link">Social Media</a>
-                        <a href="../html/community.html" class="nav-link">Community</a>
+                        <a href="${((new RegExp('^http(s)?\:\/\/127\.0\.0\.1(\:[0-9]{1,5})*\/docs/html/.*$')).test(document.URL) ? "../" : "./")}index.html" class="nav-link">Home</a>
+                        <a href="${webRootPath}product-design.html" class="nav-link">Product Design</a>
+                        <a href="${webRootPath}consulting.html" class="nav-link">Consulting</a>
+                        <a href="${webRootPath}social-media.html" class="nav-link">Social Media</a>
+                        <a href="${webRootPath}community.html" class="nav-link">Community</a>
                     </div>
                     <a class="contact-button" href="mailto: hello@gramgram.ch" target="_blank">Say hello</a>
                 </div>

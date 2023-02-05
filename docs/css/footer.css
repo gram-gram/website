@@ -19,6 +19,14 @@
     justify-content: space-between;
 }
 
+.footer-item-wrapper p{
+    margin-bottom: 16px;
+}
+
+.footer-item-wrapper h4{
+    margin-bottom: 8px;
+}
+
 .below-footer-wrapper {
     display: flex;
 

@@ -6,7 +6,7 @@ class Header extends HTMLElement {
         <nav class="nav-wrapper">
             <div class="nav-content-wrapper">
                 <div class="nav-left-wrapper">
-                    <a href="${webRootPath}index.html" class="logo-link">gramgram&sup2;</a>
+                    <a href="${((new RegExp('^http(s)?\:\/\/127\.0\.0\.1(\:[0-9]{1,5})*\/docs/html/.*$')).test(document.URL) ? "../" : "./")}index.html" class="logo-link">gramgram&sup2;</a>
                 </div>
                 <div class="nav-right-wrapper">
                     <div class="nav-links-wrapper">

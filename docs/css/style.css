@@ -3,7 +3,7 @@
 @import "header.css";
 @import "footer.css";
 @import "index.css";
-@import "social-media.css";
+@import "subpage.css";
 
 
 /* General */
@@ -14,7 +14,7 @@ a {
 }
 
 main {
-    max-width: 1200px;
+    max-width: 1440px;
 
     margin-left: auto;
     margin-right: auto;
@@ -24,6 +24,17 @@ body {
     margin: 0;
 
     background-color: var(--black);
+}
+
+/* Icon */
+.icon-16 {
+    width: 16px;
+    height: 16px;
+}
+
+.icon-24 {
+    width: 24px;
+    height: 24px;
 }
 
 /* Buttons */
@@ -116,6 +127,12 @@ body {
     height: 1px;
 
     background-color: var(--white);
+}
+
+.secondary-divider {
+    height: 1px;
+
+    background-color: var(--white300);
 }
 
 @media only screen and (max-width: 1280px) {

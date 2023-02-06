@@ -4,6 +4,8 @@
     padding-top: 20vh;
     padding-bottom: 20vh;
 
+    height: 30vh;
+
     column-gap: 40px;
     grid-template-columns: 1.2fr 0.8fr;
 }

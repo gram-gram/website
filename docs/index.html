@@ -26,13 +26,13 @@
 
     </head>
 
-    <body>
+    <body data-barba="wrapper">
 
         <!-- Header -->
         <main-header></main-header>
 
         <!-- Main -->
-        <main>
+        <main data-barba="container" data-barba-namespace="home">
 
             <!-- Hero Section -->
             <div class="hero-section">
@@ -199,6 +199,29 @@
         <main-footer></main-footer>
 
         </div>
+
+        <!-- barba.js -->
+        <!-- unpkg -->
+        <script src="https://unpkg.com/@barba/core"></script>
+        <!-- load gsap animation library (minified version) -->
+        <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
+        <script>
+            barba.init({
+                transitions: [{
+                    name: 'opacity-transition',
+                    leave(data) {
+                    return gsap.to(data.current.container, {
+                        opacity: 0
+                    });
+                    },
+                    enter(data) {
+                    return gsap.from(data.next.container, {
+                        opacity: 0
+                    });
+                    }
+                }]
+            });
+        </script>
 
     </body>
 

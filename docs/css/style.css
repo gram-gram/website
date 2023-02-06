@@ -10,7 +10,7 @@
 a {
     text-decoration: none;
 
-    cursor: pointer;
+    cursor: none;
 }
 
 main {
@@ -89,6 +89,35 @@ body {
 .cta-button:hover {
     background-color: var(--white);
     color: var(--black);
+
+    transition: 0.2s;
+}
+
+.cta-gradient-button {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    width: max-content;
+    height: max-content;
+
+    border-radius: 27.25px;
+    border: 1px solid transparent;
+    border-color: var(--white);
+
+    background: var(--gradient100) padding-box, var(--gradient100) border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-family: EuclidSquare Regular;
+    font-weight: 400;
+}
+
+.cta-gradient-button:hover {
+    background: var(--gradient100) padding-box, var(--gradient100) border-box;
+
+    -webkit-text-fill-color: var(--black);
 
     transition: 0.2s;
 }

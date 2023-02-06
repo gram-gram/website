@@ -6,4 +6,6 @@
     --white500: #6D6D6D;
     --white700: #3D3D3D;
     --white900: #181818;
+
+    --gradient100: linear-gradient(16deg, rgba(196,240,171,1) 0%, rgba(172,169,255,1) 100%);
 }

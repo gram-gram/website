@@ -44,7 +44,7 @@
 }
 
 .nav-link:hover {
-    text-decoration: underline;
+    color: var(--white100);
 }
 
 .logo-link {

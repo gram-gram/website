@@ -12,7 +12,7 @@ class Footer extends HTMLElement {
                     <p>Overview</p>
                     <h4 class="footer-link"><a href="${webRootPath}product-design.html">Product Design</a></h4>
                     <h4 class="footer-link"><a href="${webRootPath}consulting.html">Consulting</a></h4>
-                    <h4 class="footer-link"><a href="${webRootPath}social-media.html">Social Media</a></h4>
+                    <!-- <h4 class="footer-link"><a href="${webRootPath}social-media.html">Social Media</a></h4> -->
                     <h4 class="footer-link"><a href="${webRootPath}community.html">Community</a></h4>
                 </div>
                 <div class="footer-item-wrapper">

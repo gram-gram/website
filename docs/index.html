@@ -11,10 +11,10 @@
         <!-- Meta Angaben -->
         <title>gramgram</title>
         <link rel="icon" type="image/x-icon" href="">
-        <meta name="description" content="gramgram Website">
+        <meta name="description" content="gramgram, zurich based design collective">
 
         <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="">
+        <link rel="icon" type="image/x-icon" href="../docs/media/icons/favicon-gramgram.svg">
         
         <!-- CSS Dateien -->
         <link rel="stylesheet" type="text/css" href="./css/style.css">
@@ -23,6 +23,9 @@
         <!-- JS Dateien -->
         <script src="./js/header.js"></script>
         <script src="./js/footer.js"></script>
+        <script src="./js/gsap.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
 
     </head>
  
@@ -40,6 +43,9 @@
 
         <!-- Main -->
         <main data-barba="container" data-barba-namespace="home">
+
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
 
             <!-- Hero Section -->
             <div class="hero-section">
@@ -120,7 +126,7 @@
                 </div>
             </section>
 
-            <!-- Social Media Section -->
+            <!-- Social Media Section
             <section class="content-section" id="services">
                 <div class="top-divider-wrapper">
                     <div class="secondary-divider"></div>
@@ -140,7 +146,7 @@
                         <img src="./media/images/social-media-img.svg" alt="">
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <!-- Community Section -->
             <section class="content-section">
@@ -198,7 +204,10 @@
                     </div>
                 </div>
             </section>
-                
+
+            </div>
+        </div>    
+
         </main>
 
         <!-- Footer -->

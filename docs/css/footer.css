@@ -38,7 +38,11 @@
     justify-content: space-between;
 }
 
-.footer-link {
+.below-footer-wrapper a {
+    color: var(--white);
+}
+
+.footer-link a {
     color: var(--white);
 }
 
@@ -65,5 +69,19 @@
     .footer-content-wrapper {
         padding-left: 24px;
         padding-right: 24px;
+    }
+
+    .footer-items-wrapper {
+        flex-direction: column;
+        
+        row-gap: 32px;
+    }
+
+    .below-footer-wrapper {
+        flex-direction: column-reverse;
+
+        row-gap: 32px;
+    
+        margin-top: 80px;
     }
 }

@@ -1,0 +1,19 @@
+.team-text-wrapper {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.team-text-wrapper h2 {
+    margin-bottom: 24px;
+}
+
+.team-text-wrapper p {
+    margin-bottom: 48px;
+}
+
+.member-button-wrapper {
+    display: flex;
+
+    column-gap: 8px;
+}

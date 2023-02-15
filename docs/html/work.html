@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+    <head>
+
+        <!-- Meta Einstellungen -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Meta Angaben -->
+        <title>gramgram</title>
+        <link rel="icon" type="image/x-icon" href="">
+        <meta name="description" content="gramgram Website">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="">
+        
+        <!-- CSS Dateien -->
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
+        
+        <!-- JS Dateien -->
+        <script src="../js/header.js"></script>
+        <script src="../js/footer.js"></script>
+
+    </head>
+
+    <body data-barba="wrapper">
+
+        <!-- Custom Cursor Start -->
+        <div class="curzr" hidden>
+            <div class="curzr-dot"></div>
+        </div>
+        <script src="../js/custom-cursor.js"></script>
+        <!-- Custom Cursor End -->
+
+        <!-- Header -->
+        <main-header></main-header>
+
+        <!-- Main -->
+        <main data-barba="container" data-barba-namespace="product-design">
+
+            <!-- Hero Section -->
+            <section class="hero-section-subpage">
+                <div class="left-side-hero-section-subpage">
+                    <p>Product Design</p>
+                    <h1>gramgram can 
+                        <br>
+                        even take care of 
+                        <br>
+                        your social life.
+                    </h1>
+                </div>
+                <div class="right-side-hero-section-subpage">
+                    <h5>Social media marketing subscriptions to scale your business.</h5>
+                    <a class="cta-button" href="">Configure your subscription</a>
+                </div>
+                <img src="../media/images/social-media-thumbnail.jpg" alt="">
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <main-footer></main-footer>
+
+        </div>
+
+        <!-- barba.js -->
+        <!-- unpkg -->
+        <script src="https://unpkg.com/@barba/core"></script>
+        <!-- load gsap animation library (minified version) -->
+        <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
+        <script>
+            barba.init({
+                transitions: [{
+                    name: 'opacity-transition',
+                    leave(data) {
+                    return gsap.to(data.current.container, {
+                        opacity: 0
+                    });
+                    },
+                    enter(data) {
+                    return gsap.from(data.next.container, {
+                        opacity: 0
+                    });
+                    }
+                }]
+            });
+        </script>
+
+    </body>
+
+</html>

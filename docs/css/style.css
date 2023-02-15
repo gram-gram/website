@@ -4,6 +4,7 @@
 @import "footer.css";
 @import "index.css";
 @import "subpage.css";
+@import "team.css";
 
 
 /* General */
@@ -63,6 +64,8 @@ body {
     color: var(--white);
 
     transition: 0.2s;
+
+    transform: scale(1.05);
 }
 
 .cta-button {
@@ -90,7 +93,8 @@ body {
     background-color: var(--white);
     color: var(--black);
 
-    transition: 0.2s;
+    transition: 0.2s ease-in-out;
+    transform: scale(1.05);
 }
 
 .cta-gradient-button {

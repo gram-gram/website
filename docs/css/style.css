@@ -5,9 +5,17 @@
 @import "index.css";
 @import "subpage.css";
 @import "team.css";
+@import "work.css";
+@import "impressum.css";
+@import "project.css";
 
 
 /* General */
+::selection {
+    background: #E68CA8;
+    opacity: 0.5;
+}
+
 a {
     text-decoration: none;
 
@@ -47,11 +55,11 @@ body {
     padding-left: 16px;
     padding-right: 16px;
 
-    background-color: var(--white);
+    background-color: transparent;
     color: var(--black);
 
     border: solid;
-    border-color: var(--white);
+    border-color: var(--black);
     border-width: 1px;
     border-radius: 19.25px;
 
@@ -97,35 +105,6 @@ body {
     transform: scale(1.05);
 }
 
-.cta-gradient-button {
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 24px;
-    padding-right: 24px;
-
-    width: max-content;
-    height: max-content;
-
-    border-radius: 27.25px;
-    border: 1px solid transparent;
-    border-color: var(--white);
-
-    background: var(--gradient100) padding-box, var(--gradient100) border-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-    font-family: EuclidSquare Regular;
-    font-weight: 400;
-}
-
-.cta-gradient-button:hover {
-    background: var(--gradient100) padding-box, var(--gradient100) border-box;
-
-    -webkit-text-fill-color: var(--black);
-
-    transition: 0.2s;
-}
-
 .download-button {
     position: relative;
 
@@ -155,6 +134,19 @@ body {
     transition: 0.2s;
 }
 
+.black-button {
+    background-color: transparent;
+    color: var(--black);
+
+    border-color: var(--black);
+}
+
+.black-button:hover {
+    background-color: transparent;
+    transition: 0.2s ease-in-out;
+    transform: scale(1.05);
+}
+
 /* Dividers */
 .primary-divider {
     height: 1px;
@@ -174,7 +166,7 @@ body {
 
     margin-left: 48px;
 
-    background-color: var(--white);
+    background-color: var(--black);
 }
 
 @media only screen and (max-width: 1280px) {

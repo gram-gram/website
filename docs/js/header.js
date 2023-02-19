@@ -3,7 +3,7 @@ var webRootPath = ((new RegExp('^http(s)?\:\/\/127\.0\.0\.1(\:[0-9]{1,5})*\/docs
 class Header extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
-        <nav class="nav-wrapper">
+        <nav id="nav-wrapper" class="nav-wrapper">
             <div class="nav-content-wrapper">
                 <div class="nav-left-wrapper">
                     <a href="${((new RegExp('^http(s)?\:\/\/127\.0\.0\.1(\:[0-9]{1,5})*\/docs/html/.*$')).test(document.URL) ? "../" : "./")}index.html" class="logo-link">gramgram&sup2;</a>

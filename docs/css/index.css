@@ -2,12 +2,64 @@
     display: grid;
 
     padding-top: 20vh;
-    padding-bottom: 20vh;
 
-    height: 30vh;
+    margin-bottom: 20vh;
+
+    height: 80vh;
 
     column-gap: 40px;
     grid-template-columns: 1.2fr 0.8fr;
+}
+
+.hero-section-background {
+    position: absolute;
+
+    width: 100%;
+    height: 100vh !important;
+
+    left: 0 !important;
+    top: 0 !important;
+
+    background-color:#ff99e4;
+    background-image:
+        radial-gradient(at 95% 61%, hsla(44,87%,74%,1) 0px, transparent 50%),
+        radial-gradient(at 35% 75%, rgb(243, 149, 174) 0px, transparent 50%),
+        radial-gradient(at 61% 14%, hsla(346,75%,62%,1) 0px, transparent 50%);
+    
+    animation-name: meshGradient;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+    z-index: -99;
+}
+
+@keyframes meshGradient {
+
+    from {
+        background-size: 150%;
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-size: 350%;
+        background-position: 50% 20%;
+
+    }
+
+    to {
+        background-size: 250%;
+        background-position: 50% 50%;
+    }
+
+}
+
+.left-side-hero-section h1 {
+    color: var(--black);
+}
+
+.right-side-hero-section h5 {
+    color: var(--black);
 }
 
 .right-side-hero-section {
@@ -28,14 +80,13 @@
 .partners-logo {
     display: grid;
 
-    row-gap: 56px;
+    grid-column-start: 1;
+    grid-column-end: 3;
 
-    padding-bottom: 20vh;
+    row-gap: 56px;
 
     justify-content: center;
     text-align: center;
-
-    opacity: 0.5;
 }
 
 .img-logo-wrapper {

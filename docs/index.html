@@ -22,10 +22,19 @@
         
         <!-- JS Dateien -->
         <script src="./js/header.js"></script>
+        <script src="./js/navScroll.js"></script>
         <script src="./js/footer.js"></script>
         <script src="./js/gsap.js"></script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+
+        <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+
+        <!-- Weglot -->
+        <script>
+            Weglot.initialize({
+                api_key: 'wg_939cf9b7e93e3b4277ed24ca60ede6ed8'
+            });
+        </script>
 
     </head>
  
@@ -56,17 +65,20 @@
                 </div>
                 <div class="right-side-hero-section">
                     <h5>Our service takes care of all your design needs while letting you focus on your business.</h5>
-                    <a class="cta-button" href="#services">View our Services</a>
+                    <a class="cta-button black-button" href="#services">View our Services</a>
                 </div>
-            </section>
-            <section class="partners-logo">
-                <!-- <text class="logo-label">These brands trusted us already.</text> -->
-                <div class="img-logo-wrapper">
-                    <img src="./media/images/logos/traily-logo.svg" alt="traily-logo">
-                    <img src="./media/images/logos/asport-logo.svg" alt="asport-logo">
-                    <img src="./media/images/logos/simpleTrain-logo.svg" alt="simpleTrain-logo">
-                    <img src="./media/images/logos/grape-logo.svg" alt="grape-logo">
+
+                <div class="partners-logo">
+                    <div class="img-logo-wrapper">
+                        <img src="./media/images/logos/traily-logo-black.svg" alt="traily-logo">
+                        <img src="./media/images/logos/asport-logo-black.svg" alt="asport-logo">
+                        <img src="./media/images/logos/simpleTrain-logo-black.svg" alt="simpleTrain-logo">
+                        <img src="./media/images/logos/grape-logo-black.svg" alt="grape-logo">
+                    </div>
                 </div>
+
+                <div class="hero-section-background"></div>
+
             </section>
 
             <!-- Our Promise Section -->
@@ -163,7 +175,7 @@
                         <br>
                         to make our community as open-minded and collaborative as possible.
                     </p>
-                    <a class="cta-button" href="">Join the Community</a>
+                    <a class="cta-button" href="https://discord.gg/FnZyvu56">Join the Community</a>
                     <img src="./media/images/test-img-1.png" alt="">
                 </div>
             </section>
@@ -206,15 +218,13 @@
             </section>
 
             </div>
-        </div>    
+        </div>
 
         </main>
 
         <!-- Footer -->
         <main-footer></main-footer>
-
-        </div>
-
+        
         <!-- barba.js -->
         <!-- unpkg -->
         <script src="https://unpkg.com/@barba/core"></script>
@@ -237,6 +247,8 @@
                 }]
             });
         </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
 
     </body>
 

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+    <head>
+
+        <!-- Meta Einstellungen -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Meta Angaben -->
+        <title>gramgram</title>
+        <link rel="icon" type="image/x-icon" href="">
+        <meta name="description" content="gramgram Website">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="">
+        
+        <!-- CSS Dateien -->
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
+        
+        <!-- JS Dateien -->
+        <script src="../js/header.js"></script>
+        <script src="../js/footer.js"></script>
+
+        <!-- Weglot -->
+        <script>
+            Weglot.initialize({
+                api_key: 'wg_939cf9b7e93e3b4277ed24ca60ede6ed8'
+            });
+        </script>
+
+    </head>
+
+    <body data-barba="wrapper">
+
+        <!-- Custom Cursor Start -->
+        <div class="curzr" hidden>
+            <div class="curzr-dot"></div>
+        </div>
+        <script src="../js/custom-cursor.js"></script>
+        <!-- Custom Cursor End -->
+
+        <!-- Header -->
+        <main-header></main-header>
+
+        <!-- Main -->
+        <main data-barba="container" data-barba-namespace="product-design">
+
+            <!-- Hero Section -->
+            <section class="hero-section-subpage">
+                <div class="left-side-hero-section-subpage">
+                    <h1>
+                        Impressum
+                    </h1>
+                </div>
+            </section>
+
+            <section class="impressum-text">
+                <div class="impressums-abschnitt-wrapper">
+                    <h5>Kontaktadresse</h5>
+                    <p>gramgram GmbH</p>
+                    <p>Babastrasse 20</p>
+                    <p>CH - 8005 Zürich</p> 
+                </div>
+                <div class="impressums-abschnitt-wrapper">
+                    <h5>Handelsregistereintrag</h5>
+                    <p>Eingetragener Firmenname: gramgram GmbH</p>
+                    <p>Nummer: CHE-xxx.xxx.xxx</p>
+                    <p>Handelsregisteramt: Zürich</p> 
+                </div>
+                <div class="impressums-abschnitt-wrapper">
+                    <h5>Mehrwertsteuernummer</h5>
+                    <p>CHE-xxx.xxx.xxx MWST</p>
+                </div>
+                <div class="impressums-abschnitt-wrapper">
+                    <h5>Haftungsausschluss</h5>
+                    <p>
+                        Der Autor übernimmt keinerlei Gewähr hinsichtlich der inhaltlichen Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und Vollständigkeit der Informationen.
+                        <br>
+                        <br>
+                        Haftungsansprüche gegen den Autor wegen Schäden materieller oder immaterieller Art, welche aus dem Zugriff oder der Nutzung bzw. Nichtnutzung der veröffentlichten Informationen, durch Missbrauch der Verbindung oder durch technische Störungen entstanden sind, werden ausgeschlossen.
+                        <br>
+                        <br>
+                        Alle Angebote sind unverbindlich. Der Autor behält es sich ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder endgültig einzustellen.
+                    </p>
+                </div>
+                <div class="impressums-abschnitt-wrapper">
+                    <h5>Haftung für Links</h5>
+                    <p>
+                        Verweise und Links auf Webseiten Dritter liegen ausserhalb unseres Verantwortungsbereichs. Es wird jegliche Verantwortung für solche Webseiten abgelehnt. Der Zugriff und die Nutzung solcher Webseiten erfolgen auf eigene Gefahr des Nutzers oder der Nutzerin.
+                    </p>
+                </div>
+                <div class="impressums-abschnitt-wrapper">
+                    <h5>Urheberrechte</h5>
+                    <p>
+                        Die Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos oder anderen Dateien auf der Website gehören ausschliesslich der Firma KiloKilo GmbH oder den speziell genannten Rechtsinhabern. Für die Reproduktion jeglicher Elemente ist die schriftliche Zustimmung der Urheberrechtsträger im Voraus einzuholen.
+                    </p>
+                </div>
+            </section>
+
+
+            
+        </main>
+
+        <!-- Footer -->
+        <main-footer></main-footer>
+
+        </div>
+
+        <!-- barba.js -->
+        <!-- unpkg -->
+        <script src="https://unpkg.com/@barba/core"></script>
+        <!-- load gsap animation library (minified version) -->
+        <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
+        <script>
+            barba.init({
+                transitions: [{
+                    name: 'opacity-transition',
+                    leave(data) {
+                    return gsap.to(data.current.container, {
+                        opacity: 0
+                    });
+                    },
+                    enter(data) {
+                    return gsap.from(data.next.container, {
+                        opacity: 0
+                    });
+                    }
+                }]
+            });
+        </script>
+
+    </body>
+
+</html>

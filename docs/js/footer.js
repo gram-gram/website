@@ -13,7 +13,10 @@ class Footer extends HTMLElement {
                     <h4 class="footer-link"><a href="${webRootPath}product-design.html">Product Design</a></h4>
                     <h4 class="footer-link"><a href="${webRootPath}consulting.html">Consulting</a></h4>
                     <!-- <h4 class="footer-link"><a href="${webRootPath}social-media.html">Social Media</a></h4> -->
+                    <h4 class="footer-link"><a href="${webRootPath}work.html">Work</a></h4>
                     <h4 class="footer-link"><a href="${webRootPath}community.html">Community</a></h4>
+                    <h4 class="footer-link"><a href="${webRootPath}team.html">Team</a></h4>
+
                 </div>
                 <div class="footer-item-wrapper">
                     <p>Social Links</p>
@@ -24,7 +27,7 @@ class Footer extends HTMLElement {
               </div>
               <div class="below-footer-wrapper">
                   <p>© 2023 – developed during a cold shower🚿</p>
-                  <a href="">Impressum</a>
+                  <a href="${webRootPath}impressum.html">Impressum</a>
               </div>
             </div>
         </footer>

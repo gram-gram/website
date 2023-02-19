@@ -1,8 +1,8 @@
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+gsap.registerPlugin(ScrollSmoother);
 
 let smoother = ScrollSmoother.create({
     wrapper: '#smooth-wrapper',
     content: '#smooth-content',
-    smooth: 2,
+    smooth: 5,
     smoothTouch: 0.1
   });

@@ -6,7 +6,7 @@
 
     top: 0;
 
-    background-color: var(--black);
+    background-color: transparent;
 
     z-index: 99;
 }
@@ -38,20 +38,25 @@
     font-family: EuclidSquare Regular;
     font-size: 1em;
 
-    color: var(--white);
+    color: var(--black);
 
     margin-left: 48px;
 }
 
 .nav-link:hover {
-    color: var(--white100);
+    opacity: 0.8;
 }
 
 .logo-link {
     font-family: EuclidSquare Regular;
     font-size: 1.25em;
 
-    color: var(--white);
+    color: var(--black);
+}
+
+.BgColor {
+    transition: all 0.5s;
+    background-color: var(--black);
 }
 
 /* Menu Dropdown 

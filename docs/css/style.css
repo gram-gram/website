@@ -8,6 +8,8 @@
 @import "work.css";
 @import "impressum.css";
 @import "project.css";
+@import "consulting.css";
+@import "testimonial.css";
 
 
 /* General */
@@ -44,6 +46,33 @@ body {
 .icon-24 {
     width: 24px;
     height: 24px;
+}
+
+.icon-48 {
+    width: 48px;
+    height: 48px;
+}
+
+/* Badge*/
+.primary-badge {
+    padding: 4px 8px 4px 8px;
+
+    width: max-content;
+
+    color: var(--black);
+
+    background-color: var(--white);
+}
+
+/* Links */
+.primary-link {
+    color: var(--white);
+
+    cursor: pointer;
+}
+
+.primary-link:hover {
+    color: var(--white100);
 }
 
 /* Buttons */
@@ -143,6 +172,7 @@ body {
 
 .black-button:hover {
     background-color: transparent;
+    
     transition: 0.2s ease-in-out;
     transform: scale(1.05);
 }

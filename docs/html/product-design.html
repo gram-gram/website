@@ -22,18 +22,19 @@
         
         <!-- JS Dateien -->
         <script src="../js/header.js"></script>
+        <script src="../js/navScroll.js"></script>
         <script src="../js/footer.js"></script>
+        <script src="../js/testimonial-section.js"></script>
+        <script src="../js/gsap.js"></script>
 
-        <!-- Weglot -->
-        <script>
-            Weglot.initialize({
-                api_key: 'wg_939cf9b7e93e3b4277ed24ca60ede6ed8'
-            });
-        </script>
+        <!--Start Weglot Script-->
+        <script src=“https://cdn.weglot.com/weglot.min.js”></script>
+        <script id=“has-script-tags” src="../js/weglot.js"></script>
+        <!--End Weglot Script-->
 
     </head>
 
-    <body data-barba="wrapper">
+    <body>
 
         <!-- Custom Cursor Start -->
         <div class="curzr" hidden>
@@ -46,54 +47,188 @@
         <main-header></main-header>
 
         <!-- Main -->
-        <main data-barba="container" data-barba-namespace="product-design">
+        <main>
 
             <!-- Hero Section -->
             <section class="hero-section-subpage">
                 <div class="left-side-hero-section-subpage">
                     <p>Product Design</p>
-                    <h1>gramgram can 
+                    <h1>
+                        We will create
                         <br>
-                        even take care of 
+                        your baby together
                         <br>
-                        your social life.
+                        with you.
                     </h1>
                 </div>
                 <div class="right-side-hero-section-subpage">
-                    <h5>Social media marketing subscriptions to scale your business.</h5>
-                    <a class="cta-button" href="">Configure your subscription</a>
+                    <h5>
+                        We know how to do it. You know what you need, 
+                        <br>
+                        and if you don't, we'll help you find it.
+                    </h5>
+                    <a class="cta-button" href="">Contact us</a>
                 </div>
                 <img src="../media/images/social-media-thumbnail.jpg" alt="">
             </section>
+
+            <!-- Our Approach Section -->
+            <section class="content-section">
+                <div class="top-divider-wrapper">
+                    <div class="secondary-divider"></div>
+                    <p>Our Approach</p>
+                </div>
+                <div class="section-primary-content-wrapper">
+                    <h2>
+                        We craft holistic, people-friendly digital experiences. No matter what challenge you are facing, we can achieve it together.                    
+                    </h2>
+                    <p>We do this by following a simple approach.</p>
+                </div>
+            </section>
+
+            <!-- The Approach Section -->
+            <section class="approach-section-wrapper">
+                <div class="step-wrapper">
+                    <div class="left-side-step">
+                        <text class="approach-step-text">
+                            01
+                        </text>
+                    </div>
+                    <div class="right-side-step">
+                        <h4>Listen</h4>
+                        <p>
+                            We listen to what your problems, goals and needs are. This way we can best advise you which solution is right for you.
+                        </p>
+                        <div class="deliverables-wrapper">
+                            <h6>Deliverables:</h6>
+                            <div class="deliverables-badge-wrapper">
+                                <label class="primary-badge">Workshops</label>
+                                <label class="primary-badge">Approach</label>
+                                <label class="primary-badge">Planning</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="secondary-divider"></div>
+                <div class="step-wrapper">
+                    <div class="left-side-step">
+                        <text class="approach-step-text">
+                            02
+                        </text>
+                    </div>
+                    <div class="right-side-step">
+                        <h4>Investigate</h4>
+                        <p>
+                            We uncover insights and shape websites, and products through a process of exploration and investigation.
+                        </p>
+                        <div class="deliverables-wrapper">
+                            <h6>Deliverables:</h6>
+                            <div class="deliverables-badge-wrapper">
+                                <label class="primary-badge">User Research</label>
+                                <label class="primary-badge">Market Research</label>
+                                <label class="primary-badge">Competitive Benchmarking</label>
+                                <label class="primary-badge">Usability Assessments</label>
+                                <label class="primary-badge">Instrumentation</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="secondary-divider"></div>
+                <div class="step-wrapper">
+                    <div class="left-side-step">
+                        <text class="approach-step-text">
+                            03
+                        </text>
+                    </div>
+                    <div class="right-side-step">
+                        <h4>Design</h4>
+                        <p>
+                            We ensure that all design decisions are based on a deep understanding of our clients' needs and desires to create a positive user experience.
+                        </p>
+                        <div class="deliverables-wrapper">
+                            <h6>Deliverables:</h6>
+                            <div class="deliverables-badge-wrapper">
+                                <label class="primary-badge">Design Thinking</label>
+                                <label class="primary-badge">Service Design</label>
+                                <label class="primary-badge">Usage Scenarios</label>
+                                <label class="primary-badge">Organizational Design</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="secondary-divider"></div>
+                <div class="step-wrapper">
+                    <div class="left-side-step">
+                        <text class="approach-step-text">
+                            04
+                        </text>
+                    </div>
+                    <div class="right-side-step">
+                        <h4>Build</h4>
+                        <p>
+                            Backed by modern technologies and our partners. We build websites and products that improve functionality, stay reliable, and evolve with time.
+                        </p>
+                        <div class="deliverables-wrapper">
+                            <h6>Deliverables:</h6>
+                            <div class="deliverables-badge-wrapper">
+                                <label class="primary-badge">Web Development</label>
+                                <label class="primary-badge">Mobile Development</label>
+                                <label class="primary-badge">IoT Solutions</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="secondary-divider"></div>
+                <div class="step-wrapper">
+                    <div class="left-side-step">
+                        <text class="approach-step-text">
+                            05
+                        </text>
+                    </div>
+                    <div class="right-side-step">
+                        <h4>Operate</h4>
+                        <p>
+                            We offer a comprehensive service including hosting and maintenance even after the roll-out.
+                        </p>
+                        <div class="deliverables-wrapper">
+                            <h6>Deliverables:</h6>
+                            <div class="deliverables-badge-wrapper">
+                                <label class="primary-badge">Content Management</label>
+                                <label class="primary-badge">Hosting</label>
+                                <label class="primary-badge">Technical Support</label>
+                                <label class="primary-badge">Analytics & SEO</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Innovation Section -->
+            <section class="content-section" id="services">
+                <div class="top-divider-wrapper">
+                    <div class="secondary-divider"></div>
+                    <p>Innovation</p>
+                </div>
+
+                <div class="section-secondary-content-wrapper">
+                    <div class="left-side-section">
+                        <h2>
+                            Innovation by definition only happens when people actually adopt and start using your product, service or experience.
+                        </h2>
+                    </div>
+                    <div class="right-side-section">
+                        <img src="../media/images/traily-thumbnail.png" alt="">
+                    </div>
+                </div>
+
+            </section>
+
+            <testimonial-section></testimonial-section>
+
         </main>
 
         <!-- Footer -->
         <main-footer></main-footer>
-
-        </div>
-
-        <!-- barba.js -->
-        <!-- unpkg -->
-        <script src="https://unpkg.com/@barba/core"></script>
-        <!-- load gsap animation library (minified version) -->
-        <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
-        <script>
-            barba.init({
-                transitions: [{
-                    name: 'opacity-transition',
-                    leave(data) {
-                    return gsap.to(data.current.container, {
-                        opacity: 0
-                    });
-                    },
-                    enter(data) {
-                    return gsap.from(data.next.container, {
-                        opacity: 0
-                    });
-                    }
-                }]
-            });
-        </script>
 
     </body>
 

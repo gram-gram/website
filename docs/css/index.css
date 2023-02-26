@@ -20,14 +20,14 @@
     left: 0 !important;
     top: 0 !important;
 
-    background-color:#ff99e4;
+    background-color: hsla(296, 100%, 86%, 1);
     background-image:
-        radial-gradient(at 95% 61%, hsla(44,87%,74%,1) 0px, transparent 50%),
-        radial-gradient(at 35% 75%, rgb(243, 149, 174) 0px, transparent 50%),
-        radial-gradient(at 61% 14%, hsla(346,75%,62%,1) 0px, transparent 50%);
+        radial-gradient(at 80% 0%, hsla(293, 90%, 78%,1) 0px, transparent 100%),
+        radial-gradient(at -20% 100%, rgb(238, 222, 101) 0px, transparent 100%),
+        radial-gradient(at 100% 100%, rgb(253, 244, 249) 0px, transparent 100%);
     
     animation-name: meshGradient;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
 
@@ -37,19 +37,19 @@
 @keyframes meshGradient {
 
     from {
-        background-size: 150%;
+        background-size: 100%;
         background-position: 0% 0%;
     }
 
     50% {
-        background-size: 350%;
-        background-position: 50% 20%;
+        background-size: 140%;
+        background-position: 50% 50%;
 
     }
 
     to {
-        background-size: 250%;
-        background-position: 50% 50%;
+        background-size: 200%;
+        background-position: 100% 100%;
     }
 
 }

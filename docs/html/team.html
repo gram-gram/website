@@ -22,18 +22,19 @@
         
         <!-- JS Dateien -->
         <script src="../js/header.js"></script>
+        <script src="../js/navScroll.js"></script>
         <script src="../js/footer.js"></script>
+        <script src="../js/testimonial-section.js"></script>
+        <script src="../js/gsap.js"></script>
 
-        <!-- Weglot -->
-        <script>
-            Weglot.initialize({
-                api_key: 'wg_939cf9b7e93e3b4277ed24ca60ede6ed8'
-            });
-        </script>
+        <!--Start Weglot Script-->
+        <script src=“https://cdn.weglot.com/weglot.min.js”></script>
+        <script id=“has-script-tags” src="../js/weglot.js"></script>
+        <!--End Weglot Script-->
 
     </head>
 
-    <body data-barba="wrapper">
+    <body>
 
         <!-- Custom Cursor Start -->
         <div class="curzr" hidden>
@@ -46,7 +47,7 @@
         <main-header></main-header>
 
         <!-- Main -->
-        <main data-barba="container" data-barba-namespace="team">
+        <main>
 
             <!-- Hero Section -->
             <section class="hero-section-subpage">
@@ -75,8 +76,7 @@
                 </div>
                 <div class="section-primary-content-wrapper">
                     <h2>
-                        We believe in design first. The best solutions come from a place of empathy and understanding. We want to understand your needs as a company so that we can provide you with the best possible solution for your business.
-                    </h2>
+                        We are all friends who have known each other for a long time and go through life with the same attitude. Our motivation is to help people and drive innovation through design.                    </h2>
                 </div>
             </section>
 
@@ -167,31 +167,6 @@
 
         <!-- Footer -->
         <main-footer></main-footer>
-
-        </div>
-
-        <!-- barba.js -->
-        <!-- unpkg -->
-        <script src="https://unpkg.com/@barba/core"></script>
-        <!-- load gsap animation library (minified version) -->
-        <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
-        <script>
-            barba.init({
-                transitions: [{
-                    name: 'opacity-transition',
-                    leave(data) {
-                    return gsap.to(data.current.container, {
-                        opacity: 0
-                    });
-                    },
-                    enter(data) {
-                    return gsap.from(data.next.container, {
-                        opacity: 0
-                    });
-                    }
-                }]
-            });
-        </script>
 
     </body>
 

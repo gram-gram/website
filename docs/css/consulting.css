@@ -1,0 +1,80 @@
+.consulting-offers {
+    display: flex !important;
+
+    flex-direction: column;
+}
+
+.our-offers-wrapper {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    column-gap: 15%;
+    row-gap: 120px;
+
+    margin-top: 80px;
+
+    justify-content: space-between;
+}
+
+.our-offers-item-wrappper {
+    display: grid;
+
+    row-gap: 16px;
+}
+
+.your-problem-section {
+    display: flex !important;
+
+    flex-direction: column;
+
+    row-gap: 40px;
+}
+
+.approach-section-wrapper {
+    display: flex;
+
+    flex-direction: column;
+
+    row-gap: 80px;
+
+    padding-bottom: 20vh;
+}
+
+.step-wrapper {
+    display: flex;
+
+    column-gap: 120px;
+}
+
+.left-side-step {
+    width: 10%;
+}
+
+.right-side-step {
+    display: flex;
+
+    flex-direction: column;
+
+    row-gap: 24px;
+
+    width: 40%;
+
+    margin-top: 32px;
+}
+
+.deliverables-wrapper {
+    display: flex;
+
+    column-gap: 16px;
+}
+
+.deliverables-badge-wrapper {
+    display: flex;
+
+    column-gap: 8px;
+    row-gap: 8px;
+
+    flex-wrap: wrap;
+}

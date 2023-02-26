@@ -22,18 +22,19 @@
         
         <!-- JS Dateien -->
         <script src="../js/header.js"></script>
+        <script src="../js/navScroll.js"></script>
         <script src="../js/footer.js"></script>
+        <script src="../js/testimonial-section.js"></script>
+        <script src="../js/gsap.js"></script>
 
-        <!-- Weglot -->
-        <script>
-            Weglot.initialize({
-                api_key: 'wg_939cf9b7e93e3b4277ed24ca60ede6ed8'
-            });
-        </script>
+        <!--Start Weglot Script-->
+        <script src=“https://cdn.weglot.com/weglot.min.js”></script>
+        <script id=“has-script-tags” src="../js/weglot.js"></script>
+        <!--End Weglot Script-->
 
     </head>
 
-    <body data-barba="wrapper">
+    <body>
 
         <!-- Custom Cursor Start -->
         <div class="curzr" hidden>
@@ -46,7 +47,7 @@
         <main-header></main-header>
 
         <!-- Main -->
-        <main data-barba="container" data-barba-namespace="consulting">
+        <main>
 
             <!-- Hero Section -->
             <section class="hero-section-subpage">
@@ -66,35 +67,70 @@
                 </div>
                 <img src="../media/images/consulting-thumbnail.jpg" alt="">
             </section>
+
+            <!-- Our Offers Section -->
+            <section class="content-section">
+                <div class="top-divider-wrapper">
+                    <div class="secondary-divider"></div>
+                    <p>Our Offers</p>
+                </div>
+                <div class="section-secondary-content-wrapper consulting-offers">
+                    <h2>These are our offers.</h2>
+                    <div class="our-offers-wrapper">
+                        <div class="our-offers-item-wrappper">
+                            <div class="icon-48"><img src="../media/icons/placeholder-icon.svg" alt=""></div>
+                            <h4>Creative Workshops</h4>
+                            <p>
+                                You tell us what problem you have and we will collaborate with your team to find the best solution for you. Using a variety of creative methods, we will guide you and your team.
+                            </p>
+                            <!-- <a class="primary-link" href="">Read more</a> -->
+                        </div>
+                        <div class="our-offers-item-wrappper">
+                            <div class="icon-48"><img src="../media/icons/placeholder-icon.svg" alt=""></div>
+                            <h4>UX Analysis</h4>
+                            <p>
+                                We take a close look at your product to locate potential improvements and opportunities in the area of user experience, user interface und behavior design. Whether it's feedback or user testing, we'll do everything we can to make your product better than ever before.
+                            </p>
+                            <!-- <a class="primary-link" href="">Read more</a> -->
+                        </div>
+                        <div class="our-offers-item-wrappper">
+                            <div class="icon-48"><img src="../media/icons/placeholder-icon.svg" alt=""></div>
+                            <h4>Design Sprints</h4>
+                            <p>
+                                Monday, Tuesday, Wednesday, Thursday and on Friday the big magic takes place. We will work with you and your team from an idea to a user tested prototype in one week.
+                            </p>
+                            <!-- <a class="primary-link" href="">Read more</a> -->
+                        </div>
+                        <div class="our-offers-item-wrappper">
+                            <div class="icon-48"><img src="../media/icons/placeholder-icon.svg" alt=""></div>
+                            <h4>Product Strategy</h4>
+                            <p>
+                                You tell us what problem you have and we will collaborate with your team to find the best solution for you. Using a variety of creative methods, we will guide you and your team.
+                            </p>
+                            <!-- <a class="primary-link" href="">Read more</a> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Your Problem Section -->
+            <section class="content-section">
+                <div class="top-divider-wrapper">
+                    <div class="secondary-divider"></div>
+                    <!-- <p>Your Problem</p> -->
+                </div>
+                <div class="section-secondary-content-wrapper your-problem-section">
+                    <h2>And now, how can we help you?</h2>
+                    <a class="cta-button" href="mailto: consulting@gramgram.ch">Tell us your problem</a>
+                </div>
+            </section>
+
+            <testimonial-section></testimonial-section>
+
         </main>
 
         <!-- Footer -->
         <main-footer></main-footer>
-
-        </div>
-
-        <!-- barba.js -->
-        <!-- unpkg -->
-        <script src="https://unpkg.com/@barba/core"></script>
-        <!-- load gsap animation library (minified version) -->
-        <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
-        <script>
-            barba.init({
-                transitions: [{
-                    name: 'opacity-transition',
-                    leave(data) {
-                    return gsap.to(data.current.container, {
-                        opacity: 0
-                    });
-                    },
-                    enter(data) {
-                    return gsap.from(data.next.container, {
-                        opacity: 0
-                    });
-                    }
-                }]
-            });
-        </script>
 
     </body>
 

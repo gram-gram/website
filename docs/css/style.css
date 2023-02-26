@@ -172,7 +172,7 @@ body {
 
 .black-button:hover {
     background-color: transparent;
-    
+
     transition: 0.2s ease-in-out;
     transform: scale(1.05);
 }

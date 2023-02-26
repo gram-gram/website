@@ -54,9 +54,69 @@
     color: var(--black);
 }
 
+
+/* Default Header Styling */
+
+.default-header-color > .nav-wrapper {
+    background-color: var(--black);
+}
+
+.default-header-color > .nav-wrapper > .nav-content-wrapper > .nav-left-wrapper > .logo-link {
+    color: var(--white);
+}
+
+.default-header-color > .nav-wrapper > .nav-content-wrapper > .nav-right-wrapper > .nav-links-wrapper > .nav-link {
+    color: var(--white);
+}
+
+.default-header-color > .nav-wrapper > .nav-content-wrapper > .nav-right-wrapper > .nav-links-wrapper > .vertical-header-divider {
+    background-color: var(--white);
+}
+
+.default-header-color > .nav-wrapper > .nav-content-wrapper > .nav-right-wrapper > .contact-button {
+    color: var(--white);
+    border-color: var(--white);
+}
+
+.default-header-color > .nav-wrapper > .nav-content-wrapper > .nav-right-wrapper > .contact-button:hover {
+    color: var(--black);
+
+    background-color: var(--white);
+
+    border-color: var(--black);
+}
+
+
+/* Scroll Trigger Styling */
+
 .BgColor {
     transition: all 0.5s;
     background-color: var(--black);
+}
+
+.BgColor > .nav-content-wrapper > .nav-left-wrapper > .logo-link {
+    color: var(--white);
+}
+
+.BgColor > .nav-content-wrapper > .nav-right-wrapper > .nav-links-wrapper > .nav-link {
+    color: var(--white);
+}
+
+.BgColor > .nav-content-wrapper > .nav-right-wrapper > .nav-links-wrapper > .vertical-header-divider {
+    background-color: var(--white);
+}
+
+.BgColor > .nav-content-wrapper > .nav-right-wrapper > .contact-button {
+    color: var(--white);
+    border-color: var(--white);
+}
+
+.BgColor > .nav-content-wrapper > .nav-right-wrapper > .contact-button:hover {
+    color: var(--black);
+
+    background-color: var(--white);
+
+    border-color: var(--black);
 }
 
 /* Menu Dropdown 

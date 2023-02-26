@@ -32,6 +32,23 @@
     animation-direction: alternate-reverse;
 
     z-index: -99;
+
+    overflow: hidden;
+}
+
+.hero-section-background::after {
+    content: "";
+    position: absolute;
+
+    width: 200vw;
+    height: 200vh;
+
+    left: -50%;
+    right: -50%;
+
+    background-image: url(../media/images/grain.png);
+
+    opacity: 0.4;
 }
 
 @keyframes meshGradient {

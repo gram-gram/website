@@ -11,3 +11,19 @@
 .impressums-abschnitt-wrapper h5 {
     margin-bottom: 16px;
 }
+
+/* Responsiveness */
+
+@media only screen and (max-width: 1480px) {
+    
+}
+
+@media only screen and (max-width: 1280px) {
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .impressum-text {
+        width: 100%;
+    }
+}

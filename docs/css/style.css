@@ -10,6 +10,10 @@
 @import "project.css";
 @import "consulting.css";
 @import "testimonial.css";
+@import "community.css";
+@import "locomotive-scroll.css";
+@import "product-design.css";
+
 
 
 /* General */
@@ -53,7 +57,7 @@ body {
     height: 48px;
 }
 
-/* Badge*/
+/* Badge */
 .primary-badge {
     padding: 4px 8px 4px 8px;
 
@@ -124,6 +128,8 @@ body {
 
     font-family: EuclidSquare Regular;
     font-weight: 400;
+
+    align-items: center;
 }
 
 .cta-button:hover {
@@ -132,6 +138,11 @@ body {
 
     transition: 0.2s ease-in-out;
     transform: scale(1.05);
+}
+
+.cta-button i{
+    margin-top: 2px;
+    margin-left: 16px;
 }
 
 .download-button {
@@ -177,6 +188,25 @@ body {
     transform: scale(1.05);
 }
 
+/* Links */
+.back-link {
+    display: flex;
+
+    column-gap: 16px;
+
+    margin-top: 40px;
+
+    width: max-content;
+
+    color: var(--white);
+
+    align-items: center;
+}
+
+.back-link:hover {
+    opacity: 0.7;
+}
+
 /* Dividers */
 .primary-divider {
     height: 1px;
@@ -197,6 +227,15 @@ body {
     margin-left: 48px;
 
     background-color: var(--black);
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width: 1520px) {
+    main {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 }
 
 @media only screen and (max-width: 1280px) {

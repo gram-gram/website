@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="de">
+<html lang="en">
 
     <head>
 
@@ -19,7 +19,15 @@
         <!-- CSS Dateien -->
         <link rel="stylesheet" type="text/css" href="./css/style.css">
         <link rel="stylesheet" type="text/css" href="./css/index.css">
-        
+
+        <!-- Icons -->
+        <script src="https://unpkg.com/phosphor-icons"></script>
+
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"></script>
+
         <!-- JS Dateien -->
         <script src="./js/header.js"></script>
         <script src="./js/navScroll.js"></script>
@@ -29,6 +37,21 @@
 
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
+        <!-- Locomotive Scroll
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"> 
+        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+        <script src="./js/locomotive-scroll.min.js"></script>
+        <script>
+            (function () {
+                var scroll = new LocomotiveScroll();
+            })();
+
+            const scroll = new LocomotiveScroll({
+                el: document.querySelector('[data-scroll-container]'),
+                smooth: true
+            });
+        </script> -->
+        
         <!--Start Weglot Script-->
         <script src=“https://cdn.weglot.com/weglot.min.js”></script>
         <script id=“has-script-tags” src="./js/weglot.js"></script>
@@ -49,13 +72,10 @@
         <main-header></main-header>
 
         <!-- Main -->
-        <main>
-
-        <div id="smooth-wrapper">
-            <div id="smooth-content">
+        <main data-scroll-container> 
 
             <!-- Hero Section -->
-            <section class="hero-section">
+            <section class="hero-section" data-scroll-section>
                 <div class="left-side-hero-section">
                     <h1>
                         Design is important.
@@ -80,7 +100,7 @@
             </section>
 
             <!-- Our Promise Section -->
-            <section class="content-section">
+            <section class="content-section" data-scroll-section>
                 <div class="top-divider-wrapper">
                     <div class="secondary-divider"></div>
                     <p>Our Promise</p>
@@ -93,12 +113,12 @@
             </section>
 
             <!-- Product Design Section -->
-            <section class="content-section" id="services">
+            <section class="content-section" id="services" data-scroll-section>
                 <div class="top-divider-wrapper">
                     <div class="secondary-divider"></div>
                     <p>Product Design</p>
                 </div>
-                <div class="section-secondary-content-wrapper">
+                <div class="section-secondary-content-wrapper index-secondary-section">
                     <div class="left-side-section">
                         <h2>
                             We craft holistic, people-friendly digital experiences.
@@ -116,12 +136,12 @@
             </section>
 
             <!-- Consulting Section -->
-            <section class="content-section" id="services">
+            <section class="content-section" id="services" data-scroll-section>
                 <div class="top-divider-wrapper">
                     <div class="secondary-divider"></div>
                     <p>Consulting</p>
                 </div>
-                <div class="section-secondary-content-wrapper">
+                <div class="section-secondary-content-wrapper index-secondary-section">
                     <div class="left-side-section">
                         <h2>
                             Creative Workshops, Design Sprints, UX Consulting & more.
@@ -161,7 +181,7 @@
             </section> -->
 
             <!-- Community Section -->
-            <section class="content-section">
+            <section class="content-section" data-scroll-section>
                 <div class="top-divider-wrapper">
                     <div class="secondary-divider"></div>
                     <p>Community</p>
@@ -175,13 +195,13 @@
                         <br>
                         to make our community as open-minded and collaborative as possible.
                     </p>
-                    <a class="cta-button" href="https://discord.gg/FnZyvu56" target="_blank">Join the Community</a>
+                    <a class="cta-button" href="https://discord.gg/FnZyvu56" target="_blank">Join the community!<i class="ph-discord-logo-fill ph-1g"></i></a>
                     <img src="./media/images/test-img-1.png" alt="">
                 </div>
             </section>
 
             <!-- Team Section -->
-            <section class="content-section">
+            <section class="content-section" data-scroll-section>
                 <div class="top-divider-wrapper">
                     <div class="secondary-divider"></div>
                     <p>Team</p>
@@ -192,7 +212,7 @@
                         <br>
                         the shower you took this morning.
                     </h2>
-                    <div class="team-img-wrapper">
+                    <div class="index-team-img-wrapper">
                         <div class="member-wrapper">
                             <img src="./media/images/noel-img.jpg" alt="">
                             <h5>Noel Kampus</h5>
@@ -217,17 +237,12 @@
                 </div>
             </section>
 
-            </div>
-        </div>
-
-        <testimonial-section></testimonial-section>
+        <testimonial-section data-scroll-section></testimonial-section>
 
         </main>
 
         <!-- Footer -->
         <main-footer></main-footer>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
 
     </body>
 

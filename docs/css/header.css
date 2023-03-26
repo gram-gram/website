@@ -54,6 +54,10 @@
     color: var(--black);
 }
 
+.mobile-nav-link {
+    display: none;
+}
+
 
 /* Default Header Styling */
 
@@ -84,6 +88,10 @@
     background-color: var(--white);
 
     border-color: var(--black);
+}
+
+.default-header-color > .nav-wrapper > .nav-content-wrapper > .nav-right-wrapper > .ph-equals-light {
+    color: var(--black) !important;
 }
 
 
@@ -117,6 +125,10 @@
     background-color: var(--white);
 
     border-color: var(--black);
+}
+
+.BgColor > .nav-content-wrapper > .nav-right-wrapper > .ph-equals-light {
+    color: var(--white) !important;
 }
 
 /* Menu Dropdown 
@@ -194,5 +206,9 @@
 
     #mobile-nav-wrapper {
         display: none;
+    }
+
+    .mobile-nav-link {
+        display: block;
     }
 }

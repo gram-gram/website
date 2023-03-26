@@ -14,11 +14,14 @@
         <meta name="description" content="gramgram Website">
 
         <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="">
+        <link rel="icon" type="image/x-icon" href="../media/icons/favicon-gramgram.svg">
         
         <!-- CSS Dateien -->
         <link rel="stylesheet" type="text/css" href="../css/style.css">
         <link rel="stylesheet" type="text/css" href="../css/index.css">
+
+        <!-- Icons -->
+        <script src="https://unpkg.com/phosphor-icons"></script>
         
         <!-- JS Dateien -->
         <script src="../js/header.js"></script>
@@ -50,39 +53,117 @@
         <main>
 
             <section class="back-to-section">
-                <p></p><a href="../html/work.html">Back to overview</a></p>
+                <a class="back-link" href="../html/work.html"><i class="ph-arrow-left-bold" style="color: var(--white);"></i>Back to overview</a>
             </section>
 
             <!-- Hero Section -->
             <section class="hero-section-subpage">
                 <div class="left-side-hero-section-subpage">
-                    <p>Product Design</p>
+                    <div class="project-badge-wrapper project-page">
+                        <label class="primary-badge">Product Design</label>
+                        <label class="primary-badge">Branding</label>
+                        <label class="primary-badge">3D Modelling</label>
+                    </div>
                     <h1>
                         Traily – an one-stop booking platform for european train travel.
                     </h1>
                 </div>
-                <!-- <div class="right-side-hero-section-subpage">
-                    <h5>If the work has convinced you, feel free to contact us</h5>
-                    <a class="cta-button" href="">Contact us</a>
-                </div> -->
                 <img src="../media/images/social-media-thumbnail.jpg" alt="">
             </section>
 
-            <section class="project-details-wrapper">
-                <div class="detail-wrapper">
-                    <p>beschreibung...</p>
+            <!-- Details Section -->
+            <section class="content-section">
+                <div class="top-divider-wrapper">
+                    <div class="secondary-divider"></div>
+                    <p>Project Details</p>
                 </div>
-                <div class="detail-wrapper">
-                    <h5>Kunde</h5>
-                    <p><a href="https://www.traily.ch">Traily</a></p>
+
+                <div class="section-secondary-content-wrapper project-details-wrapper">
+                    <div class="project-details-items description"> 
+                        <h6>Description</h6>
+                        <p>
+                            Hey there, this is the default text for a new paragraph. Feel free to edit this paragraph by clicking on the yellow edit icon. After you are done just click on the yellow checkmark button on the top right. Have Fun!
+                        </p>
+                    </div>
+                    <div class="project-details-items"> 
+                        <h6>Our Work</h6>
+                        <p>Concept</p>
+                        <p>Branding</p>
+                        <p>Strategy</p>
+                        <p>Product Design</p>
+                        <p>Prototyping</p>
+                        <p>3D Modelling</p>
+                    </div>
+                    <div class="project-details-items"> 
+                        <h6>Client</h6>
+                        <p>Swisscom Kickbox</p>
+                    </div>
+                    <div class="project-details-items"> 
+                        <h6>Link</h6>
+                        <a href="https://www.traily.ch">traily.ch</a>
+                    </div>
                 </div>
-                <div class="detail-wrapper">
-                    <h5>Von uns</h5>
-                    <p>Product Design</p>
-                    <p>Product Management</p>
+
+            </section>
+
+            <!-- Branding Section -->
+            <section class="content-section">
+                <div class="top-divider-wrapper">
+                    <div class="secondary-divider"></div>
+                    <p>Branding</p>
+                </div>
+
+                <div class="section-secondary-content-wrapper project-content-wrapper">
+                    <img src="../media/images/consulting-thumbnail.jpg" alt="">
                 </div>
             </section>
 
+            <!-- Product Design Section -->
+            <section class="content-section">
+                <div class="top-divider-wrapper">
+                    <div class="secondary-divider"></div>
+                    <p>Product Design</p>
+                </div>
+
+                <div class="section-secondary-content-wrapper project-content-wrapper">
+                    <img src="../media/images/consulting-thumbnail.jpg" alt="">
+                    <img src="../media/images/consulting-thumbnail.jpg" alt="">
+                    <img src="../media/images/consulting-thumbnail.jpg" alt="">
+                </div>
+            </section>
+
+            <!-- 3D Design Section -->
+            <section class="content-section">
+                <div class="top-divider-wrapper">
+                    <div class="secondary-divider"></div>
+                    <p>3D Modelling</p>
+                </div>
+
+                <div class="section-secondary-content-wrapper project-content-wrapper">
+                    <img src="../media/images/consulting-thumbnail.jpg" alt="">
+                    <img src="../media/images/consulting-thumbnail.jpg" alt="">
+                    <img src="../media/images/consulting-thumbnail.jpg" alt="">
+                </div>
+            </section>
+
+            <!-- Other Projects Section -->
+            <section class="content-section">
+                <div class="top-divider-wrapper">
+                    <div class="secondary-divider"></div>
+                    <p>Other projects</p>
+                </div>
+
+                <div class="section-secondary-content-wrapper">
+                    <a class="other-projects-card">
+                        <!-- <i class="ph-arrow-left-bold ph-2x" style="color: var(--white);"></i> -->
+                        <h3>Traily – an one-stop booking platform for european train travel.</h3>
+                    </a>
+                    <a class="other-projects-card">
+                        <h3>Traily – an one-stop booking platform for european train travel.</h3>
+                        <!-- <i class="ph-arrow-right-bold ph-2x" style="color: var(--white);"></i> -->
+                    </a>
+                </div>
+            </section>
             
         </main>
 

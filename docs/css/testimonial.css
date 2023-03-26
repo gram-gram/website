@@ -30,6 +30,12 @@
     opacity: 0.3;
 }
 
+.tablink:hover {
+    opacity: 0.6;
+
+    transition: 0.5s ease-in-out;
+}
+
 .tablink.active {
     opacity: 1 !important;
 }
@@ -57,4 +63,22 @@
     flex-direction: column;
 
     row-gap: 4px;
+}
+
+@media only screen and (max-width: 1440px) {
+    
+}
+
+@media only screen and (max-width: 1280px) {
+    .testimonial-tabs-wrapper {
+        display: flex;
+
+        flex-direction: column;
+    
+        row-gap: 40px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    
 }

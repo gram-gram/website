@@ -17,3 +17,33 @@
 
     column-gap: 8px;
 }
+
+/* Responsiveness */
+
+@media only screen and (max-width: 1480px) {
+    
+}
+
+@media only screen and (max-width: 1280px) {
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .team-section {
+        display: flex !important;
+
+        flex-direction: column;
+    }
+
+    .team-img-wrapper {
+        display: flex !important;
+    }
+
+    .member-button-wrapper {
+        display: flex;
+    
+        flex-direction: column;
+
+        row-gap: 16px;
+    }
+}

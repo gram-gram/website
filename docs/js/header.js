@@ -20,6 +20,7 @@ class Header extends HTMLElement {
                         <a href="${webRootPath}team.html" class="nav-link">Team</a>
                     </div>
                     <a class="contact-button" href="mailto: hello@gramgram.ch" target="_blank">Say hello</a>
+                    <a class="mobile-nav-link"  href=""><i class="ph-equals-light ph-2x" style="color: var(--black);"></i></a>
                 </div>
             </div>
         </nav>

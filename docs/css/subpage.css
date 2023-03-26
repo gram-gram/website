@@ -17,7 +17,11 @@
 
     row-gap: 40px;
 
-    padding-top: 32px;
+    padding-top: 56px;
+}
+
+.left-side-hero-section-subpage p {
+    margin-bottom: 24px;
 }
 
 .hero-section-subpage img {

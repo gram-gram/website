@@ -1,0 +1,56 @@
+.project-badge-wrapper {
+    display: flex;
+
+    column-gap: 8px;
+    row-gap: 8px;
+
+    flex-wrap: wrap;
+}
+
+.project-page {
+    margin-bottom: 48px;
+}
+
+.project-details-wrapper {
+    display: flex !important;
+}
+
+.project-content-wrapper {
+    display: flex !important;
+
+    flex-direction: column;
+
+    row-gap: 40px;
+}
+
+.project-content-wrapper img {
+    width: 100%;
+}
+
+.description {
+    width: 40%;
+}
+
+.project-details-items h6 {
+    margin-bottom: 16px;
+}
+
+.project-details-items {
+    display: flex;
+
+    flex-direction: column;
+
+    row-gap: 8px;
+}
+
+.other-projects-card {
+    display: flex;
+
+    column-gap: 40px;
+}
+
+.other-projects-card:hover {
+    opacity: 0.5;
+
+    transition: 0.5s ease-in-out;
+}

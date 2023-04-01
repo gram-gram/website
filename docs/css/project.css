@@ -54,3 +54,33 @@
 
     transition: 0.5s ease-in-out;
 }
+
+/* Responsiveness */
+
+@media only screen and (max-width: 1520px) {
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+}
+
+@media only screen and (max-width: 800px) {
+    .project-details-wrapper {
+        flex-direction: column;
+
+        row-gap: 56px;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .other-projects-wrapper {
+        display: flex !important;
+
+        flex-direction: column;
+
+        row-gap: 56px;
+    }
+}

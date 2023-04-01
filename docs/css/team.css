@@ -46,4 +46,8 @@
 
         row-gap: 16px;
     }
+
+    .team-text-wrapper h2 {
+        margin-top: 48px;
+    }
 }

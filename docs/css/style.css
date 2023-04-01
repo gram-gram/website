@@ -18,6 +18,7 @@
 
 /* General */
 ::selection {
+    color: var(--white);
     background: #E68CA8;
     opacity: 0.5;
 }
@@ -186,6 +187,29 @@ body {
 
     transition: 0.2s ease-in-out;
     transform: scale(1.05);
+}
+
+/* Mobile Button */
+
+.mobile-contact-button {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    background-color: transparent;
+    color: var(--white);
+
+    width: max-content;
+
+    border: solid;
+    border-color: var(--white);
+    border-width: 1px;
+    border-radius: 29px;
+
+    font-family: EuclidSquare Regular;
+    font-size: 1.2em;
+    font-weight: 400;
 }
 
 /* Links */

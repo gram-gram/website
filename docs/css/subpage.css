@@ -37,6 +37,12 @@
     grid-row-end: 2;
 }
 
+/* Responsiveness */
+
+@media only screen and (max-width: 1520px) {
+
+}
+
 @media only screen and (max-width: 1280px) {
 
 }
@@ -54,5 +60,17 @@
         column-gap: 0px;
 
         grid-template-columns: 1fr;
+    }
+
+    .hero-section-subpage img {
+        margin-top: 56px;
+    }
+
+    .right-side-hero-section-subpage {
+        padding-top: 32px;
+    }
+
+    .right-side-section img {
+        margin-bottom: 0px !important;
     }
 }

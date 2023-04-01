@@ -20,7 +20,24 @@ class Header extends HTMLElement {
                         <a href="${webRootPath}team.html" class="nav-link">Team</a>
                     </div>
                     <a class="contact-button" href="mailto: hello@gramgram.ch" target="_blank">Say hello</a>
-                    <a class="mobile-nav-link"  href=""><i class="ph-equals-light ph-2x" style="color: var(--black);"></i></a>
+                    <a class="mobile-nav-button" href="javascript:void(0);" onclick="menuOpener()">
+                        <div class="menu-icon-stroke top-stroke"></div>
+                        <div class="menu-icon-stroke bottom-stroke"></div>
+                    </a>
+
+                    <!-- Mobile Nav -->
+                    <div class="mobile-nav-wrapper">
+                        <div class="mobile-nav-links-wrapper">
+                                <a href="${((new RegExp('^http(s)?\:\/\/127\.0\.0\.1(\:[0-9]{1,5})*\/docs/html/.*$')).test(document.URL) ? "../" : "./")}index.html" class="nav-link mobile-nav-link">Home</a>
+                                <a href="${webRootPath}product-design.html" class="nav-link mobile-nav-link">Product Design</a>
+                                <a href="${webRootPath}consulting.html" class="nav-link mobile-nav-link">Consulting</a>
+                                <a href="${webRootPath}work.html" class="nav-link mobile-nav-link mobile-space-link">Work</a>
+                                <a href="${webRootPath}community.html" class="nav-link mobile-nav-link">Community</a>
+                                <a href="${webRootPath}team.html" class="nav-link mobile-nav-link mobile-space-link">Team</a>
+                                <a class="mobile-contact-button" href="mailto: hello@gramgram.ch" target="_blank">Say hello</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </nav>

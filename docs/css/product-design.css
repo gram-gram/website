@@ -8,6 +8,10 @@
     padding-bottom: 20vh;
 }
 
+.approach-title-wrapper {
+    padding-bottom: 96px !important;
+}
+
 .step-wrapper {
     display: flex;
 

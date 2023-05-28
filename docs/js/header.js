@@ -20,10 +20,10 @@ class Header extends HTMLElement {
                         <a href="${webRootPath}team.html" class="nav-link">Team</a>
                     </div>
                     <a class="contact-button" href="mailto: hello@gramgram.ch" target="_blank">Say hello</a>
-                    <a class="mobile-nav-button" href="javascript:void(0);" onclick="menuOpener()">
+                    <div class="mobile-nav-button" onclick="">
                         <div class="menu-icon-stroke top-stroke"></div>
                         <div class="menu-icon-stroke bottom-stroke"></div>
-                    </a>
+                    </div>
 
                     <!-- Mobile Nav -->
                     <div class="mobile-nav-wrapper">

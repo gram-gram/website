@@ -1,9 +1,9 @@
 .hero-section {
     display: grid;
 
-    padding-top: 20vh;
+    padding-top: 25vh;
 
-    height: 80vh;
+    height: 67vh;
 
     column-gap: 40px;
     grid-template-columns: 1.2fr 0.8fr;
@@ -25,7 +25,7 @@
         radial-gradient(at 100% 100%, rgb(253, 244, 249) 0px, transparent 100%);
     
     animation-name: meshGradient;
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
 
@@ -69,6 +69,12 @@
 
 }
 
+.title-link {
+    text-decoration: underline;
+
+    color: var(--black);
+}
+
 .left-side-hero-section h1 {
     color: var(--black);
 }
@@ -85,6 +91,8 @@
     row-gap: 40px;
 
     padding-top: 16px;
+
+    height: max-content;
 }
 
 .logo-label {
@@ -99,6 +107,9 @@
     grid-column-end: 3;
 
     row-gap: 56px;
+
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 
     justify-content: center;
     text-align: center;
@@ -194,7 +205,7 @@
 
         flex-direction: column;
     
-        padding-top: 30vh;
+        padding-top: 5vh;
 
         row-gap: 8px;
 

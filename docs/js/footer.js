@@ -21,7 +21,7 @@ class Footer extends HTMLElement {
                 <div class="footer-item-wrapper">
                     <p>Social Links</p>
                     <h4 class="footer-link"><a href="https://instagram.com/gramgram.ch" target="_blank">Instagram</a></h4>
-                    <h4 class="footer-link"><a href="https://www.linkedin.com/in/gramgram/" target="_blank">LinkedIn</a></h4>
+                    <h4 class="footer-link"><a href="https://ch.linkedin.com/company/gramgram-ch" target="_blank">LinkedIn</a></h4>
                     <h4 class="footer-link"><a href="">Spotify</a></h4>
                 </div>
               </div>

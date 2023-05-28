@@ -43,6 +43,9 @@ class RingDot {
     move(event) {
       if (event.target.localName === 'button' || 
           event.target.localName === 'a' ||
+          event.target.localName === 'input' ||
+          event.target.localName === 'textarea' ||
+          event.target.localName === 'select' ||
           event.target.onclick !== null ||
           event.target.className.includes('curzr-hover')) {
         this.hover(40)

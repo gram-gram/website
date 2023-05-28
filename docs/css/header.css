@@ -245,6 +245,19 @@
     }
 
     .mobile-nav-wrapper {
-        display: block;
+        display: none;
     }
+
+    .mobile-nav-button.active .menu-icon-stroke:nth-child(1) {
+        transform: rotate(45deg);
+    }
+
+    .mobile-nav-button.active .menu-icon-stroke:nth-child(2) {
+        transform: rotate(-45deg);
+    }
+
+    .mobile-nav-wrapper.active {
+        left: 0;
+    }
+
 }

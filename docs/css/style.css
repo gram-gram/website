@@ -13,13 +13,32 @@
 @import "community.css";
 @import "locomotive-scroll.css";
 @import "product-design.css";
+@import "form.css";
+@import "lab.css";
 
+/* Countdown */
+.countdown-icon-wrapper {
+    display: flex;
 
+    column-gap: 24px;
+}
+
+#countdown-timer {
+    color: var(--black) !important;
+
+    font-size: 2em;
+}
+
+@media only screen and (max-width: 800px) {
+    .countdown-icon-wrapper {
+        margin-top: 40px;
+    }
+}
 
 /* General */
 ::selection {
-    color: var(--white);
-    background: #E68CA8;
+    color: var(--black);
+    background: var(--white);
     opacity: 0.5;
 }
 

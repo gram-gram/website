@@ -92,11 +92,15 @@ body {
 .primary-link {
     color: var(--white);
 
-    cursor: pointer;
+    cursor: none;
+
+    text-decoration: none;
 }
 
 .primary-link:hover {
     color: var(--white100);
+
+    text-decoration: underline;
 }
 
 /* Buttons */

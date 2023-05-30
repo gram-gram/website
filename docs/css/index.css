@@ -189,6 +189,14 @@
     width: 100%;
 }
 
+.community-section-button-wrapper {
+    display: flex;
+
+    column-gap: 40px;
+
+    align-items: center;
+}
+
 /* Responsiveness */
 
 @media only screen and (max-width: 1480px) {

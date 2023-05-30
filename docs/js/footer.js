@@ -6,7 +6,7 @@ class Footer extends HTMLElement {
               <div class="footer-items-wrapper">
                 <div class="footer-item-wrapper">
                     <p>Contact</p>
-                    <h4 class="footer-link"><a href="mailto: hello@gramgram.ch" target="_blank">hello@gramgram.ch</a></h4>
+                    <h4 class="footer-link"><a href="mailto: info@gramgram.ch" target="_blank">info@gramgram.ch</a></h4>
                 </div>
                 <div class="footer-item-wrapper">
                     <p>Overview</p>

@@ -1,14 +1,14 @@
 .lab-gallery-wrapper {
     display: grid;
 
+    column-gap: 80px !important;
+    row-gap: 80px;
+
     width: 100%;
 }
 
 .lab-gallery-wrapper img {
     display: grid;
-
-    column-gap: 80px;
-    row-gap: 80px;
 
     width: 100%;
 }

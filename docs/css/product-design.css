@@ -1,3 +1,29 @@
+.product-services {
+    display: flex !important;
+
+    flex-direction: column;
+}
+
+.our-services-wrapper {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    column-gap: 40px;
+
+    margin-top: 80px;
+
+    justify-content: space-between;
+}
+
+.our-services-item-wrappper {
+    display: grid;
+
+    row-gap: 16px;
+
+    height: max-content;
+}
+
 .approach-section-wrapper {
     display: flex;
 

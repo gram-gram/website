@@ -82,7 +82,11 @@
 }
 
 @media only screen and (max-width: 1280px) {
-    
+    .our-services-wrapper {
+        grid-template-columns: 1fr 1fr;
+
+        row-gap: 80px;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -100,5 +104,11 @@
 
     .right-side-step {
         width: 100%;
+    }
+
+    .our-services-wrapper {
+        grid-template-columns: 1fr;
+
+        row-gap: 80px;
     }
 }

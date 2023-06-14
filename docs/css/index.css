@@ -266,4 +266,12 @@
         column-gap: 32px;
         row-gap: 32px;
     }
+
+    .community-section-button-wrapper {
+        flex-direction: column;
+
+        row-gap: 40px;
+
+        align-items: flex-start;
+    }
 }

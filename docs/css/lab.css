@@ -12,3 +12,21 @@
 
     width: 100%;
 }
+
+/* Responsiveness */
+
+@media only screen and (max-width: 1480px) {
+    
+}
+
+@media only screen and (max-width: 1280px) {
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .lab-gallery-wrapper {
+        grid-template-columns: 1fr !important;
+
+        row-gap: 40px;
+    }
+}

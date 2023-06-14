@@ -23,11 +23,6 @@
         <!-- Icons -->
         <script src="https://unpkg.com/phosphor-icons"></script>
 
-        <!-- GSAP -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"></script>
-
         <!-- JS Dateien -->
         <script src="./js/mobile-nav.js"></script>
         <script src="./js/contact-form.js"></script>
@@ -35,29 +30,8 @@
         <script src="./js/navScroll.js"></script>
         <script src="./js/footer.js"></script>
         <script src="./js/testimonial-section.js"></script>
-        <script src="./js/gsap.js"></script>
 
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-
-        <!-- Locomotive Scroll
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"> 
-        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
-        <script src="./js/locomotive-scroll.min.js"></script>
-        <script>
-            (function () {
-                var scroll = new LocomotiveScroll();
-            })();
-
-            const scroll = new LocomotiveScroll({
-                el: document.querySelector('[data-scroll-container]'),
-                smooth: true
-            });
-        </script> -->
-        
-        <!--Start Weglot Script-->
-        <script src=“https://cdn.weglot.com/weglot.min.js”></script>
-        <script id=“has-script-tags” src="./js/weglot.js"></script>
-        <!--End Weglot Script-->
 
     </head>
  
@@ -74,7 +48,7 @@
         <main-header></main-header>
 
         <!-- Main -->
-        <main data-scroll-container> 
+        <main> 
 
             <!-- Hero Section -->
             <section class="hero-section">
@@ -261,6 +235,17 @@
 
         <!-- Footer -->
         <main-footer></main-footer>
+
+        <script>
+            function myFunction() {
+            var x = document.getElementById("mobile-nav-wrapper");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+            }
+        </script>
 
     </body>
 

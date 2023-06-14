@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="de">
+<html lang="en">
 
     <head>
 
@@ -11,7 +11,7 @@
         <!-- Meta Angaben -->
         <title>gramgram</title>
         <link rel="icon" type="image/x-icon" href="">
-        <meta name="description" content="gramgram Website">
+        <meta name="description" content="gramgram, zurich based design collective">
 
         <!-- Favicon -->
         <link rel="icon" type="image/x-icon" href="../media/icons/favicon-gramgram.svg">
@@ -22,18 +22,16 @@
 
         <!-- Icons -->
         <script src="https://unpkg.com/phosphor-icons"></script>
-        
+
         <!-- JS Dateien -->
+        <script src="../js/mobile-nav.js"></script>
+        <script src="../js/contact-form.js"></script>
         <script src="../js/header.js"></script>
         <script src="../js/navScroll.js"></script>
         <script src="../js/footer.js"></script>
         <script src="../js/testimonial-section.js"></script>
-        <script src="../js/gsap.js"></script>
 
-        <!--Start Weglot Script-->
-        <script src=“https://cdn.weglot.com/weglot.min.js”></script>
-        <script id=“has-script-tags” src="../js/weglot.js"></script>
-        <!--End Weglot Script-->
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
     </head>
 
@@ -70,7 +68,7 @@
                         <br>
                         and if you don't, we'll help you find it.
                     </h5>
-                    <a class="cta-button" href="">Let's talk<i class="ph-1g ph-chats-circle-fill"></i></a>
+                    <a class="cta-button" href="mailto: info@gramgram.ch" target="_blank">Let's talk<i class="ph-1g ph-chats-circle-fill"></i></a>
                 </div>
                 <img src="../media/images/social-media-thumbnail.jpg" alt="">
             </section>
@@ -82,7 +80,7 @@
                     <p>Our Services</p>
                 </div>
                 <div class="section-secondary-content-wrapper product-services">
-                    <h2>We do.</h2>
+                    <h2>We do concept, design and development.</h2>
                     <div class="our-services-wrapper">
                         <div class="our-services-item-wrappper">
                             <i class="ph-light ph-device-mobile-camera ph-3x" style="color: var(--white);"></i>
@@ -285,6 +283,17 @@
 
         <!-- Footer -->
         <main-footer></main-footer>
+
+        <script>
+            function myFunction() {
+            var x = document.getElementById("mobile-nav-wrapper");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+            }
+        </script>
 
     </body>
 

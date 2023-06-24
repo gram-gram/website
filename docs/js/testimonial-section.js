@@ -65,9 +65,9 @@ class Testemonial {
 }
 
 Testemonial.instances = [
-  new Testemonial('Max Mustermann', 'Senior Developer, Spotify', 'jnejfnweowojwoefj jwnefnown owbfejnw wofnowef fowfno wfonwfoowf wofnow owneofnw oweofbo onweofn obnoefn.', '/docs/media/images/ferdi-img.jpg'),
-  new Testemonial('Max Mustermann', 'Senior Developer, Spotify', 'Hello World.', '/docs/media/images/noah-img.jpg'),
-  new Testemonial('Max Mustermann', 'Senior Developer, Spotify', 'bla bla bla bla bla.', '/docs/media/images/kilian-img.jpg')
+  new Testemonial('Martin Masch', 'Founder, Mindmesh', 'Gramgram is innovative approach to digital product design transformed our business. Their attention to detail and seamless user experience have greatly enhanced our online presence and customer engagement.', '/docs/media/images/noah-img.jpg'),
+  new Testemonial('Max Mustermann', 'Senior Developer, Spotify', 'We were blown away by gramgram is ability to translate our vision into a visually stunning and user-friendly digital product. Their team is expertise in UI/UX design has undoubtedly elevated our brand and exceeded our expectations.', '/docs/media/images/noah-img.jpg'),
+  new Testemonial('Max Mustermann', 'Senior Developer, Spotify', 'Gramgram is exceptional design skills and deep understanding of user behavior resulted in a highly intuitive and visually appealing digital product. Thanks to their collaboration, we have witnessed a significant increase in user satisfaction and retention.', '/docs/media/images/kilian-img.jpg')
 ]
 
 class Testimonials extends HTMLElement {

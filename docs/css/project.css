@@ -21,6 +21,10 @@
     flex-direction: column;
 
     row-gap: 40px;
+
+    max-width: 1440px !important;
+
+    margin-bottom: 20vh;
 }
 
 .project-content-wrapper img {
@@ -55,6 +59,19 @@
     transition: 0.5s ease-in-out;
 }
 
+.quadr-project-section {
+    display: grid;
+    position: relative;
+
+    column-gap: 40px;
+
+    grid-template-columns: 1fr 1fr;
+}
+
+.quadr-project-section img {
+    width: 100%;
+}
+
 /* Responsiveness */
 
 @media only screen and (max-width: 1520px) {
@@ -82,5 +99,20 @@
         flex-direction: column;
 
         row-gap: 56px;
+    }
+
+    .project-content-wrapper {
+        display: flex !important;
+        
+        row-gap: 8px;
+    }
+
+    .quadr-project-section {
+        display: grid;
+        position: relative;
+    
+        column-gap: 8px;
+    
+        grid-template-columns: 1fr 1fr;
     }
 }

@@ -6,7 +6,7 @@ class Header extends HTMLElement {
         <nav id="nav-wrapper" class="nav-wrapper">
             <div class="nav-content-wrapper">
                 <div class="nav-left-wrapper">
-                    <a href="${((new RegExp('^http(s)?\:\/\/127\.0\.0\.1(\:[0-9]{1,5})*\/docs/html/.*$')).test(document.URL) ? "../" : "./")}index.html" class="logo-link">gramgram&sup2;</a>
+                    <a href="${((new RegExp('^http(s)?\:\/\/127\.0\.0\.1(\:[0-9]{1,5})*\/docs/html/.*$')).test(document.URL) ? "../" : "./")}index.html" class="logo-link">gramgram</a>
                 </div>
                 <div class="nav-right-wrapper">
                     <div class="nav-links-wrapper">
@@ -31,7 +31,7 @@ class Header extends HTMLElement {
             <div id="mobile-nav-wrapper">
                 <div class="nav-content-wrapper-active">
                     <div class="nav-left-wrapper mobile-left-side">
-                        <a href="${((new RegExp('^http(s)?\:\/\/127\.0\.0\.1(\:[0-9]{1,5})*\/docs/html/.*$')).test(document.URL) ? "../" : "./")}index.html" class="logo-link mobile-logo-active">gramgram&sup2;</a>
+                        <a href="${((new RegExp('^http(s)?\:\/\/127\.0\.0\.1(\:[0-9]{1,5})*\/docs/html/.*$')).test(document.URL) ? "../" : "./")}index.html" class="logo-link mobile-logo-active">gramgram</a>
                     </div>
 
                     <div class="nav-right-wrapper mobile-right-side">

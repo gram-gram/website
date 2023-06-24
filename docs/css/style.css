@@ -254,6 +254,12 @@ body {
     opacity: 0.7;
 }
 
+.project-link {
+    color: var(--white300);
+
+    text-decoration: underline;
+}
+
 /* Dividers */
 .primary-divider {
     height: 1px;

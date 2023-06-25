@@ -1,0 +1,12 @@
+RewriteEngine On
+
+RewriteRule ^home index.html [NC,L]
+RewriteRule ^product-design html/product-design.html [NC,L]
+RewriteRule ^consulting html/consulting.html [NC,L]
+RewriteRule ^work html/work.html [NC,L]
+RewriteRule ^traily html/traily.html [NC,L]
+RewriteRule ^mindmesh html/mindmesh.html [NC,L]
+RewriteRule ^yadu html/yadu.html [NC,L]
+RewriteRule ^community html/community.html [NC,L]
+RewriteRule ^team html/team.html [NC,L]
+RewriteRule ^impressum html/impressum.html [NC,L]

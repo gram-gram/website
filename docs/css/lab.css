@@ -1,15 +1,17 @@
 .lab-gallery-wrapper {
     display: grid;
 
-    column-gap: 80px !important;
-    row-gap: 80px;
+    column-gap: 40px !important;
+    row-gap: 40px;
 
     width: 100%;
 }
 
 .lab-gallery-wrapper img {
-    display: grid;
+    width: 100%;
+}
 
+.lab-gallery-wrapper video {
     width: 100%;
 }
 

@@ -311,4 +311,10 @@
     
         row-gap: 80px;
     }
+
+    .section-secondary-content-wrapper {
+        row-gap: 40px;
+    
+        grid-template-columns: 1fr;
+    }
 }

@@ -26,8 +26,11 @@ class Footer extends HTMLElement {
                 </div>
               </div>
               <div class="below-footer-wrapper">
-                  <p>© 2023 – developed during a cold shower🚿</p>
-                  <a href="${webRootPath}impressum.html">Impressum</a>
+                  <p>© 2023 v1.0 – developed during a cold shower🚿</p>
+                  <div class="below-footer-links-wrapper">
+                    <a href="mailto: info@gramgram.ch">Feedback</a>
+                    <a href="${webRootPath}impressum.html">Impressum</a>
+                  </div>
               </div>
             </div>
         </footer>

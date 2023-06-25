@@ -58,6 +58,12 @@
     color: var(--white);
 }
 
+.below-footer-links-wrapper {
+    display: flex;
+
+    column-gap: 40px;
+}
+
 /* Responsiveness */
 
 @media only screen and (max-width: 1520px) {

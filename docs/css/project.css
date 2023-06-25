@@ -47,18 +47,6 @@
     row-gap: 8px;
 }
 
-.other-projects-card {
-    display: flex;
-
-    column-gap: 40px;
-}
-
-.other-projects-card:hover {
-    opacity: 0.5;
-
-    transition: 0.5s ease-in-out;
-}
-
 .quadr-project-section {
     display: grid;
     position: relative;
@@ -69,6 +57,27 @@
 }
 
 .quadr-project-section img {
+    width: 100%;
+}
+
+/* Other Projects Section */
+.other-projects-section {
+    position: relative;
+    display: flex;
+
+    column-gap: 40px;
+
+    padding-top: 80px;
+}
+
+.other-projects-card {
+    display: flex;
+
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.other-projects-card img {
     width: 100%;
 }
 

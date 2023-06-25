@@ -75,11 +75,15 @@
 /* Responsiveness */
 
 @media only screen and (max-width: 1520px) {
-
+    .project-content-wrapper iframe {
+        height: 800px !important;
+    }
 }
 
 @media only screen and (max-width: 1280px) {
-
+    .project-content-wrapper iframe {
+        height: 400px !important;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -114,5 +118,9 @@
         column-gap: 8px;
     
         grid-template-columns: 1fr 1fr;
+    }
+
+    .project-content-wrapper iframe {
+        height: 200px !important;
     }
 }

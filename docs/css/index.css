@@ -44,7 +44,7 @@
     left: -50%;
     right: -50%;
 
-    background-image: url(../media/images/grain.png);
+    /*background-image: url(../media/images/grain.png);*/
 
     opacity: 0.4;
 }
@@ -113,6 +113,15 @@
 
     justify-content: center;
     text-align: center;
+}
+
+.partners-logo img {
+    opacity: 0.6;
+}
+
+.partners-logo img:hover {
+    opacity: 0.7;
+    transition: ease-in-out 0.5s;
 }
 
 .img-logo-wrapper {

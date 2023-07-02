@@ -111,4 +111,14 @@
 
         row-gap: 80px;
     }
+
+    .approach-section-wrapper {
+        display: flex;
+    
+        flex-direction: column;
+    
+        row-gap: 64px;
+    
+        padding-bottom: 20vh;
+    }
 }

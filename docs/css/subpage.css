@@ -37,6 +37,19 @@
     grid-row-end: 2;
 }
 
+.hero-section-subpage video {
+    margin-top: 20vh;
+    
+    width: 100%;
+    max-width: 1440px;
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
 /* Responsiveness */
 
 @media only screen and (max-width: 1520px) {
@@ -66,8 +79,12 @@
         margin-top: 56px;
     }
 
+    .hero-section-subpage video {
+        margin-top: 40px;
+    }
+
     .right-side-hero-section-subpage {
-        padding-top: 32px;
+        padding-top: 0px;
     }
 
     .right-side-section img {

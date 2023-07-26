@@ -36,8 +36,6 @@ class Header extends HTMLElement {
 
                     <div class="nav-right-wrapper mobile-right-side">
                         <div class="mobile-nav-button mobile-nav-button-active" onclick="myFunction()" href="javascript:void(0);">
-                            <!-- <div class="menu-icon-stroke menu-icon-stroke-active top-stroke-active"></div>
-                            <div class="menu-icon-stroke menu-icon-stroke-active bottom-stroke-active"></div> -->
                             <i class="ph-2x ph-light ph-x" style="color: var(--white);"></i>
                         </div>
                     </div>

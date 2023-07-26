@@ -106,18 +106,10 @@
         width: 100%;
     }
 
-    .other-projects-wrapper {
-        display: flex !important;
-
-        flex-direction: column;
-
-        row-gap: 56px;
-    }
-
     .project-content-wrapper {
         display: flex !important;
         
-        row-gap: 8px;
+        row-gap: 8px !important;
     }
 
     .quadr-project-section {
@@ -131,5 +123,13 @@
 
     .project-content-wrapper iframe {
         height: 200px !important;
+    }
+
+    .other-projects-section {
+        flex-direction: column;
+    
+        row-gap: 80px;
+
+        padding-top: 40px;
     }
 }
